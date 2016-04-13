@@ -1,36 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WpfApplication1
+﻿
+namespace ConverterDemo
 {
+    /// <summary>
+    /// ViewModel for the main window
+    /// </summary>
     class MainWindowViewModel
     {
-
-        private double? myDouble;
-        public double? MyDouble
-        {
-            get { return myDouble; }
-            set
-            {
-                myDouble = value;
-            }
-        }
+        /// <summary>
+        /// The one and only property that we care about
+        /// </summary>
+        public double? MyDouble { get; set; }
     }
 }
 
-class MainWindowViewModel
-{
 
-    private double? myDouble;
-    public double? MyDouble
-    {
-        get { return myDouble; }
-        set
-        {
-            myDouble = value;
-        }
-    }
-}
+

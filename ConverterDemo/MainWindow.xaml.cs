@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 
 
-namespace WpfApplication1
+namespace ConverterDemo
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -11,7 +11,6 @@ namespace WpfApplication1
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = new MainWindowViewModel();
         }
     }
 }
