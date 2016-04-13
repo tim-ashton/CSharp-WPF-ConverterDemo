@@ -1,5 +1,5 @@
 # WPF-ConverterDemo
-Demo of MVVM databinding and using an IValueConverter 
+Demo of MVVM databinding and use of an IValueConverter 
 
 This project demonstrates:
 
